@@ -195,50 +195,101 @@ const data = [
         "id" : 25,
         "title" : "Do'a Al-Matsurat",
         "repeat" : 3, 
-        "core" : "",
-        "latin" : "",
-        "terjemah" : ""
+        "core" : "اللَّهُمَّ إِنَّا نَعُوذُ بِكَ مِنْ أَنْ نُشْرِكَ بِكَ شَيْئًا نَعْلَمُهُ وَنَسْتَغْفِرُكَ لِمَا لَا نَعْلَمُه",
+        "latin" : "Alloohumma innaa na’uudzubika min an-nusyrika bika syai-an na’lamuhu wa nastaghfiruka limaa laa na’lamuh",
+        "terjemah" : "Ya Allah sesungguhnya kami berlindung kepadaMu dari menyekutukanMu dengan sesuatu yang kami ketahui, dan kami memohon ampunanMu dari apa-apa yang tidak kami ketahui."
     },
     {
         "id" : 26,
         "title" : "Do'a Al-Matsurat",
         "repeat" : 3, 
-        "core" : "",
-        "latin" : "",
-        "terjemah" : ""
+        "core" : "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
+        "latin" : "A’uudzu bikalimaatillaahit-taammaaati min syarri maa kholaq",
+        "terjemah" : "Aku berlindung dengan kalimat Allah yang sempurna dari keburukan apa-apa yang Dia ciptakan."
     },
     {
         "id" : 27,
         "title" : "Do'a Al-Matsurat",
         "repeat" : 3, 
-        "core" : "",
-        "latin" : "",
-        "terjemah" : ""
+        "core" : "اَللَّهُمَّ إِنِّي أَعُوْذُ بِكَ مِنَ الهَمِّ وَالْحَزَنِ وَأَعُوْذُ بِكَ مِنَ الْعَجْزِ وَالْكَسَلِ وَأَعُوْذُ بِكَ مِنَ الْجُبْنِ وَالبُخْلِ وَأَعُوْذُ بِكَ مِنْ غَلَبَةِ الدَّيْنِ وَقَهْرِ الرِّجَالِ",
+        "latin" : "Alloohumma innii a’uudzubika minal hammi wal hazan, wa a’uudzubika minal ‘ajzi wal kasal, wa a’uudzubika minal jubni wal bukhli, wa a’uudzubika min gholabatid-daini wa qohrir-rijaal",
+        "terjemah" : "Ya Allah, aku berlindung kepada-Mu dari rasa gelisah dan sedih, dari kelemahan dan kemalasan, dari sifat pengecut dan bakhil, dan dari lilitan hutang dan kesewenang-wenangan orang."
     },
     {
         "id" : 28,
         "title" : "Do'a Al-Matsurat",
         "repeat" : 3, 
-        "core" : "",
-        "latin" : "",
-        "terjemah" : ""
+        "core" : "اَللَّهُمَّ عَافِنِي فِي بَدَنِي اَللَّهُمَّ عَافِنِي فِي سَمْعِي اَللَّهُمَّ عَافِنِي فِي بَصَرِي",
+        "latin" : "Alloohumma ‘aafinii fii badanii. Alloohumma ‘aafini fi sam’ii. Alloohumma ‘aafinini fi bashorii",
+        "terjemah" : "Ya Allah berikanlah kesehatan bagi badanku, bagi pendengaranku, bagi penglihatanku."
     },
     {
         "id" : 29,
-        "title" : "",
-        "repeat" : 1, 
-        "core" : "",
-        "latin" : "",
-        "terjemah" : ""
+        "title" : "Do'a Al-Matsurat",
+        "repeat" : 3, 
+        "core" : "اَللَّهُمَّ إِنِّي أَعُوْذُ بِكَ مِنَ الْكُفْرِ وَالْفَقْرِوَأَعُوْذُ بِكَ مِنْ عَذَابِ الْقَبْرِلاَ إِلهَ إِلاَّ أَنْتَ",
+        "latin" : "Alloohumma innii a’uudzubika minal kufri wal faqri, wa a’uudzubika min’adzaabil qobri, laa ilaaha ilaa anta",
+        "terjemah" : "Ya Allah sungguh aku berlindung kepadaMu dari kekufuran dan kefaqiran, Ya Allah sungguh aku berlindung kepadaMu dari azab kubur, tidak ada Ilah kecuali Engkau."
     },
     {
-        "id" : 40,
-        "title" : "",
-        "repeat" : 1, 
-        "core" : "",
-        "latin" : "",
-        "terjemah" : ""
+        "id" : 30,
+        "title" : "Do'a Al-Matsurat",
+        "repeat" : 3, 
+        "core" : "اَللّهُمَّ أَنْتَ رَبِّي لَا إلهَ إِلاَّ أَنْتَ خَلَقْتَنِي وَأَنَا عَبْدُكَ وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ أَعُوْذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ أَبُوْءُ لَكَ بِنِعْمَتِكَ عَلَيَّ وَأَبُوْءُ بِذَنْبِي فَاغْفِرْ لِي فَإِنَّهُ لاَ يَغْفِرُ الذُّنُوْبَ إِلاَّ أَنْتَ",
+        "latin" : "Alloohumma anta robbii laa ilaaha illaa anta kholaqtanii wa ana abduka wa ana ‘alaa ‘ahdika wawa’dika mastatho’tu, a’uudzubika min syarri maa shona’tu abuu-ulaka bini’matika ‘alayya wa abuu-u bidzambii faghfirlii fa innahuu laa yaghfirudz-dzunuuba ilaa anta",
+        "terjemah" : "Ya Allah, Engkau Tuhanku, tiada Tuhan kecuali Engkau. Engkau ciptakan aku dan aku adalah hamba-Mu. Aku berada di atas janjiMu, semampuku. Aku berlindung kepadaMu dari keburukan perbuatanku. Aku mengakui banyaknya nikmat (yang Engkau anugerahkan) kepadaku dan aku mengakui dosa-dosaku, maka ampunilah aku. Karena sesungguhnya tiada yang mengampuni dosa-dosa melainkan Engkau"
+    },
+    {
+        "id" : 31,
+        "title" : "Do'a Al-Matsurat",
+        "repeat" : 3, 
+        "core" : "أَسْتَغْفِرُ اللَّهَ الْعَظِيمَ الَّذِي لَا إلهَ إِلَّا هُوَ الْحَيَّ الْقَيُّومَ وَأَتُوبُ إِلَيْهِ",
+        "latin" : "Astaghfirullohal ‘adzim alladzi laa illa huwal hayyul qoyyumu wa atubu ilaih",
+        "terjemah" : "Aku memohon ampunan Allah Yang Tiada Tuhan melainkan Dia, Yang Maha Hidup dan Maha Mengurus (makhluk-Nya)."
+    },
+    {
+        "id" : 32,
+        "title" : "Do'a Al-Matsurat",
+        "repeat" : 10, 
+        "core" : "اَللّهُمَّ صَلِّ عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا صَلَّــيْتَ عَـلَى سَيِّدِنَا إِبْرَاهِيْمَ وَعَلَى آلِ سَيِّدِنَا إِبْـرَاهِيْمَ وبَارِكْ عَـلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ كَمَا بَارَكْتَ عَـلَى سَيِّدِنَا إِبْرَاهِيْمَ وَعَــلَى آلِ سَيـِّدِنَا إِبْـرَاهِيْمَ فِي الْعَالَمِيْنَ إِنَّكَ حَمِيْدٌ مَجِيْدٌ",
+        "latin" : "Alloohumma sholli ‘alaa sayyidina muhammadin wa ‘alaa alii muhammad, kamaa shollaita ‘alaa sayyidina ibroohiima wa ‘alaa aali ibroohiim, wa baarik ‘alaa sayyidina muhammadin wa ‘alaa alii sayyidina muhammad, kamaa baarokta ‘alaa sayyidina ibroohiima wa ‘alaa aali sayyidina ibroohiim, fil ‘aalamiina innaka hamiidum majiid",
+        "terjemah" : "Ya Allah berikanlah shalawat kepada Nabi Muhammad dan keluarga Nabi Muhammad, sebagaimana telah Engkau berikan kepada Nabi Ibrahim dan keluarga Nabi Ibrahim. Berikanlah barakah kepada Nabi Muhammad dan keluarga Nabi Muhammad, sebagaimana telah Engkau berikan kepada Nabi Ibrahim dan keluarga Nabi Ibrahim. Di alam Engkaulah Yang Maha Terpuji lagi Maha Mulia."
+    },
+    {
+        "id" : 33,
+        "title" : "Do'a Al-Matsurat",
+        "repeat" : 100, 
+        "core" : "سُبْحَانَ اللَّهِ وَالْحَمْدُ لِلَّهِ وَلَا إِلَهَ إِلَّا اللَّهُ وَاللَّهُ أَكْبَرُ",
+        "latin" : "Subhaanalloohi wal hamdu lillaahi wa laa ilaaha illalloohu walloohu akbar",
+        "terjemah" : "Maha Suci Allah, segala puji bagi Allah, tiada Tuhan melainkan Allah dan Allah Maha Besar."
+    },
+    {
+        "id" : 34,
+        "title" : "Do'a Al-Matsurat",
+        "repeat" : 10, 
+        "core" : "لَا إِلَهَ إِلَّا اللهُ وَحْدَهُ لَا شَرِكَ لَهُ لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَىْ كُلِّ شَيْءٍ قَدِيْرٌ",
+        "latin" : "Laa ilaaha illallahu wahdahu laa syariikalah, lahul mulku walahul hamdu wa huwa ‘alaa kulli syaiin qodiir",
+        "terjemah" : "Tiada Tuhan melainkan Allah semata, yang tiada sekutu bagi-Nya, bagi-Nya kerajaan dan bagi-Nya segala puji, dan Dia berkuasa ata segala sesuatu."
+    },
+    {
+        "id" : 35,
+        "title" : "Do'a Al-Matsurat",
+        "repeat" : 3, 
+        "core" : "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ أَشْهَدُ أَنْ لَّا إلهَ إِلَّا أَنْتَ أَسْتَغْفِرُكَ وَأَتُوْبُ إِلَيْكَ",
+        "latin" : "Subhaanakalloohumma wabihamdika asyhadu alla ilaaha illaa anta astaghfiruka wa atuubu ilaik",
+        "terjemah" : "Maha suci Engkau ya Allah, dan segala puji bagi-Mu. Aku bersaksi bahwa tiada Tuhan melainkan Engkau, aku memohon ampunan dan bertaubat kepada-Mu"
+    }
+];
+
+const robitoh = [
+    {
+        "id" : 35,
+        "title" : "Do'a Al-Matsurat",
+        "repeat" : 3, 
+        "core" : "سُبْحَانَكَ اللَّهُمَّ وَبِحَمْدِكَ أَشْهَدُ أَنْ لَّا إلهَ إِلَّا أَنْتَ أَسْتَغْفِرُكَ وَأَتُوْبُ إِلَيْكَ",
+        "latin" : "Subhaanakalloohumma wabihamdika asyhadu alla ilaaha illaa anta astaghfiruka wa atuubu ilaik",
+        "terjemah" : "Maha suci Engkau ya Allah, dan segala puji bagi-Mu. Aku bersaksi bahwa tiada Tuhan melainkan Engkau, aku memohon ampunan dan bertaubat kepada-Mu"
     }
 ]
 
-export { data };
+export { data, robitoh };

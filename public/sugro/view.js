@@ -1,4 +1,4 @@
-import { data } from './data.js';
+import { data, robitoh } from './data.js';
 
 var content = document.getElementById('isi');
 

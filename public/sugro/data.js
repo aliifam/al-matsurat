@@ -70,6 +70,174 @@ const data = [
         "core" : "",
         "latin" : "",
         "terjemah" : ""
+    },
+    {
+        "id" : 10,
+        "title" : "",
+        "repeat" : 1, 
+        "core" : "",
+        "latin" : "",
+        "terjemah" : ""
+    },
+    {
+        "id" : 11,
+        "title" : "",
+        "repeat" : 1, 
+        "core" : "",
+        "latin" : "",
+        "terjemah" : ""
+    },
+    {
+        "id" : 12,
+        "title" : "",
+        "repeat" : 1, 
+        "core" : "",
+        "latin" : "",
+        "terjemah" : ""
+    },
+    {
+        "id" : 13,
+        "title" : "",
+        "repeat" : 1, 
+        "core" : "",
+        "latin" : "",
+        "terjemah" : ""
+    },
+    {
+        "id" : 14,
+        "title" : "",
+        "repeat" : 1, 
+        "core" : "",
+        "latin" : "",
+        "terjemah" : ""
+    },
+    {
+        "id" : 15,
+        "title" : "",
+        "repeat" : 1, 
+        "core" : "",
+        "latin" : "",
+        "terjemah" : ""
+    },
+    {
+        "id" : 16,
+        "title" : "",
+        "repeat" : 1, 
+        "core" : "",
+        "latin" : "",
+        "terjemah" : ""
+    },
+    {
+        "id" : 17,
+        "title" : "",
+        "repeat" : 1, 
+        "core" : "",
+        "latin" : "",
+        "terjemah" : ""
+    },
+    {
+        "id" : 18,
+        "title" : "",
+        "repeat" : 1, 
+        "core" : "",
+        "latin" : "",
+        "terjemah" : ""
+    },
+    {
+        "id" : 19,
+        "title" : "",
+        "repeat" : 1, 
+        "core" : "",
+        "latin" : "",
+        "terjemah" : ""
+    },
+    {
+        "id" : 20,
+        "title" : "",
+        "repeat" : 1, 
+        "core" : "",
+        "latin" : "",
+        "terjemah" : ""
+    },
+    {
+        "id" : 21,
+        "title" : "",
+        "repeat" : 1, 
+        "core" : "",
+        "latin" : "",
+        "terjemah" : ""
+    },
+    {
+        "id" : 22,
+        "title" : "",
+        "repeat" : 1, 
+        "core" : "",
+        "latin" : "",
+        "terjemah" : ""
+    },
+    {
+        "id" : 23,
+        "title" : "",
+        "repeat" : 1, 
+        "core" : "",
+        "latin" : "",
+        "terjemah" : ""
+    },
+    {
+        "id" : 24,
+        "title" : "",
+        "repeat" : 1, 
+        "core" : "",
+        "latin" : "",
+        "terjemah" : ""
+    },
+    {
+        "id" : 25,
+        "title" : "",
+        "repeat" : 1, 
+        "core" : "",
+        "latin" : "",
+        "terjemah" : ""
+    },
+    {
+        "id" : 26,
+        "title" : "",
+        "repeat" : 1, 
+        "core" : "",
+        "latin" : "",
+        "terjemah" : ""
+    },
+    {
+        "id" : 27,
+        "title" : "",
+        "repeat" : 1, 
+        "core" : "",
+        "latin" : "",
+        "terjemah" : ""
+    },
+    {
+        "id" : 28,
+        "title" : "",
+        "repeat" : 1, 
+        "core" : "",
+        "latin" : "",
+        "terjemah" : ""
+    },
+    {
+        "id" : 29,
+        "title" : "",
+        "repeat" : 1, 
+        "core" : "",
+        "latin" : "",
+        "terjemah" : ""
+    },
+    {
+        "id" : 40,
+        "title" : "",
+        "repeat" : 1, 
+        "core" : "",
+        "latin" : "",
+        "terjemah" : ""
     }
 ]
 

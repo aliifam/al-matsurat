@@ -17,3 +17,21 @@ for (let index = 0; index < data.length; index++) {
 }
 
 content.innerHTML = itemList
+
+var doa = document.getElementById('doa');
+
+var doaList = ""
+
+for (let index = 0; index < robitoh.length; index++) {
+    const doa = robitoh[index];
+    doaList += `<div class="m-4 mt-8 border-b-2 border-green-600">
+                    <div class="flex justify-between p-4 bg-green-600 text-white">
+                        <p>${doa.title}</p>
+                        <p>${doa.repeat} repetisi</p>
+                    </div>
+                    <p class="text-3xl text-justify leading-relaxed font-['fontArab'] my-6" dir="rtl">${doa.core}</p> 
+                    <p class="text-justify mb-6">${doa.terjemah}</p>
+                </div>`;
+}
+
+doa.innerHTML = doaList

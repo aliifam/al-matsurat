@@ -1,7 +1,7 @@
 {
   "name": "almatsurat-online",
   "version": "1.0.0",
-  "description": "almatsurat project",
+  "description": "almatsurat web project",
   "main": "index.js",
   "scripts": {
     "dev": "npx tailwindcss -i ./src/input.css -o ./public/style.css --watch",

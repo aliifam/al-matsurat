@@ -6,8 +6,8 @@ var itemList = "";
 
 for (let index = 0; index < data.length; index++) {
     const item = data[index];
-    itemList += `<div class="m-4 mt-8 border-b-2 border-green-600">
-                    <div class="flex justify-between p-4 bg-green-600 text-white">
+    itemList += `<div class="m-4 mt-8 border-b-2 border-zinc-700">
+                    <div class="flex justify-between p-4 bg-zinc-700 text-white">
                         <p>${item.title}</p>
                         <p>${item.repeat} repetisi</p>
                     </div>

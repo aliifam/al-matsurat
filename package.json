@@ -1,0 +1,16 @@
+{
+  "name": "almatsurat-online",
+  "version": "1.0.0",
+  "description": "almatsurat project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./public/style.css --watch",
+    "build" : "npx tailwindcss -i ./src/input.css -o ./public/style.css --minify"
+  },
+  "keywords": [],
+  "author": "Aliif Arief Maulana",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.24"
+  }
+}

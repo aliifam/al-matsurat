@@ -5,9 +5,6 @@ var dynamicView = document.getElementById('content');
 var backbutton = document.getElementById('back-button');
 var doaView = document.getElementById('doa');
 
-var itemList = "";
-var doaList = "";
-
 var clean = `<div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mx-4">
                 <a onclick="createViewSupag()">
                     <div class="flex cursor-pointer justify-center items-center h-28 border border-gray-400 hover:shadow-xl">
@@ -35,7 +32,8 @@ var doaClean = `<div><div>`
 
 function createViewSupag() {
 
-    sessionStorage.setItem('mode', 'sugro-pagi');
+    var itemList = "";
+    var doaList = "";
 
     let loader = `<div class="flex w-max justify-center items-center">
                   <svg role="status" class="mr-2 w-8 h-8 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -89,11 +87,14 @@ function createViewSupag() {
     dynamicBrowser.innerText = "Al - Matsurat Sugro Pagi";
     dynamicTitle.innerText = "Al - Matsurat Sugro Pagi";
     dynamicDescription.innerText = "Biasakan membaca Al - Matsurat sugro setiap pagi";
+
+    sessionStorage.setItem('mode', 'sugro-pagi');
 }
 
 function createViewSupet() {
 
-    sessionStorage.setItem('mode', 'sugro-petang');
+    var itemList = "";
+    var doaList = "";
 
     let loader = `<div class="flex w-max justify-center items-center">
                   <svg role="status" class="mr-2 w-8 h-8 text-gray-200 animate-spin dark:text-gray-600 fill-blue-600" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -147,6 +148,8 @@ function createViewSupet() {
     dynamicBrowser.innerText = "Al - Matsurat Sugro Petang";
     dynamicTitle.innerText = "Al - Matsurat Sugro Petang";
     dynamicDescription.innerText = "Biasakan membaca Al - Matsurat sugro setiap petang";
+
+    sessionStorage.setItem('mode', 'sugro-petang');
 }
 
 function createViewKupag() {
@@ -166,19 +169,19 @@ function resetViewBack() {
     doaView.innerHTML = "";
     backbutton.className = "hidden";
 
-    sessionStorage.clear();
+    sessionStorage.removeItem('mode');
 }
 
-// function adaptiveView() {
-//     let nowview = sessionStorage.getItem('mode');
+function adaptiveView() {
+    let nowview = sessionStorage.getItem('mode');
 
-//     if (nowview === 'sugro-pagi') {
-//         createViewSupag();
-//     }
+    if (nowview === 'sugro-pagi') {
+        createViewSupag();
+    }
 
-//     if (nowview === 'sugro-petang') {
-//         createViewSupet();
-//     }
+    if (nowview === 'sugro-petang') {
+        createViewSupet();
+    }
 
-//     console.log(nowview)
-// }
+    console.log(nowview)
+}

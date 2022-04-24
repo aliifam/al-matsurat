@@ -1,4 +1,4 @@
-const data = [
+[
     {
         "id" : 1,
         "title" : "Ta'awudz",
@@ -295,41 +295,4 @@ const data = [
         "latin" : "Subhaana robbika robbil ‘izzati ‘ammaa yashifuun, wa salaamun ‘alal mursaliin, wal-hamdu lillaahi robbil ‘aalamiin",
         "terjemah" : "Maha suci Tuhanmu; Tuhan kemuliaan, dari apa-apa yang mereka sifatkan. Keselamatan semoga tercurah kepada para utusan dan segala puji bagi Allah, Tuhan semesta alam."
     }
-];
-
-const robitoh = [
-    {
-        "id" : 1,
-        "title" : "Surat Al-Imran ayar 26",
-        "repeat" : 1, 
-        "core" : "قُلِ ٱللَّهُمَّ مَٰلِكَ ٱلۡمُلۡكِ تُؤۡتِي ٱلۡمُلۡكَ مَن تَشَآءُ وَتَنزِعُ ٱلۡمُلۡكَ مِمَّن تَشَآءُ وَتُعِزُّ مَن تَشَآءُ وَتُذِلُّ مَن تَشَآءُۖ بِيَدِكَ ٱلۡخَيۡرُۖ إِنَّكَ عَلَىٰ كُلِّ شَيۡءٖ قَدِيرٞ",
-        "latin" : "Qulillahumma maalikal mulki tu’til mulka man tasyaa, wa tanji’ul mulka mimman tasyaa, wa tu’izzu man tasyaa-u wa tudzillu man tasyaa, biyadikal khoiru innaka ‘alaa kulli syai-in qodiir",
-        "terjemah" : "Katakanlah: \"Wahai Tuhan Yang mempunyai kerajaan, Engkau berikan kerajaan kepada orang yang Engkau kehendaki dan Engkau cabut kerajaan dari orang yang Engkau kehendaki. Engkau muliakan orang yang Engkau kehendaki dan Engkau hinakan orang yang Engkau kehendaki. Di tangan Engkaulah segala kebajikan.Sesungguhnya Engkau Maha Kuasa atas segala sesuatu."
-    },
-    {
-        "id" : 2,
-        "title" : "Surat Al-Imran ayar 27",
-        "repeat" : 1, 
-        "core" : "تُولِجُ ٱلَّيۡلَ فِي ٱلنَّهَارِ وَتُولِجُ ٱلنَّهَارَ فِي ٱلَّيۡلِۖ وَتُخۡرِجُ ٱلۡحَيَّ مِنَ ٱلۡمَيِّتِ وَتُخۡرِجُ ٱلۡمَيِّتَ مِنَ ٱلۡحَيِّۖ وَتَرۡزُقُ مَن تَشَآءُ بِغَيۡرِ حِسَابٖ",
-        "latin" : "Tuulijul-laila fin nahaari wa tuulijun- nahaaro fil-laili, wa tukhrijul hayya minal mayyiti, wa tukhrijul mayyita minal hayyim wa tarzuqu man tasyaa-u bighoiri hisaaab",
-        "terjemah" : "Engkau masukkan malam ke dalam siang dan Engkau masukkan siang ke dalam malam. Engkau keluarkan yang hidup dari yang mati, dan Engkau keluarkan yang mati dari yang hidup. Dan Engkau beri rezeki siapa yang Engkau kehendaki tanpa hisab (batas)."
-    },
-    {
-        "id" : 3,
-        "title" : "Doa Robitoh",
-        "repeat" : 1, 
-        "core" : "اَللَّهُمَّ إِنَّ هَذَا إِقْبَالُ نَهَارِكَ (لَيْلِكَ) وَإِدْبَارُ لَيْلِكَ (نَهَارِكَ) وَأَصْوَاتُ دُعَاتِكَ فَاغْفِرْلِي",
-        "latin" : "Alloohumma inna haadzaa iqbaalu naharika (lailika) wa idbaaru lailaka (nahaarika) wa ashwaatu du’aatika faghfirlii",
-        "terjemah" : "Ya Allah, sesungguhnya ini adalah siang-Mu (malam-Mu) yang telah menjelang dan (malam-Mu) siang-Mu yang tengah berlalu serta suara-suara penyeru-Mu, maka ampunilah aku."
-    },
-    {
-        "id" : 4,
-        "title" : "Doa Robitoh",
-        "repeat" : 1, 
-        "core" : "اَللّهُمَّ إِنَّكَ تَعْلَمُ أَنَّ هَذِهِ الْقُلُوْبَ، قَدِ اجْتَمَعَتْ عَلَى مَحَبَّتِكَ وَالْتَقَتْ عَلَى طَاعَتِكَ، وَتَوَحَّدَتْ عَلَى دَعْوَتِكَ وَتَعَاهَدَتْ عَلَى نُصْرَةِ شَرِيْعَتِكَ فَوَثِّقِ اللَّهُمَّ رَابِطَتَهَا، وَأَدِمْ وُدَّهَا، وَاهْدِهَا سُبُلَهَا وَامْلَأَهَا بِنُوْرِكَ الَّذِيْ لاَ يَخْبُوْا وَاشْرَحْ صُدُوْرَهَا بِفَيْضِ الْإِيْمَانِ بِكَ، وَجَمِيْلِ التَّوَكُّلِ عَلَيْكَ وَاَحْيِهَا بِمَعْرِفَتِكَ، وَأَمِتْهَا عَلَى الشَّهَادَةِ فِي سَبِيْلِكَ إِنَّكَ نِعْمَ الْمَوْلَى وَنِعْمَ النَّصِيْرِ. اَللَّهُمَّ أَمِيْنَ. وَصَلِّ اللَّهُمَّ عَلَى سَيِّدَنَا مُحَمَّدٍ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلِّمَ",
-        "latin" : "Allohumma innaka ta’lamu anna haadzihil quluub, qodijtama’at ‘alaa mahabbatik, wal taqot ‘alaa thoo’atik, wa tawahhadat ‘alaaa da’watik, wa ta’aahadat ‘alaa nashroti syarii’atik, fawats-tsiqillaahumma roobithotahaa, wa- adim wuddahaa, wahdihaa subulahaa, wamla’haa binuurikal ladzii laa yakhbuu, wasyroh shuduurikal ladzii laa yakhbuu, wasyroh shuduurohaa, bifaidhil iimaanibik, wa jamiilit-tawakkuli ‘alaik, wa ahyihaa bima’rifathik, wa amit-haa ‘alasy-syahadaati fii sabiilik, innaka ni’mal maula wa ni’man-nashiir. Aamiin. Alloohumma aamiin. Wa shollillaahumma ‘alaa sayyidina muhammadin wa ‘alaa aalihi wa shohbihi wa sallam",
-        "terjemah" : "Ya Allah, sesungguhnya Engkau Maha Mengetahui bahawa hati-hati ini, telah berhimpun di atas dasar kecintaan terhadapmu, bertemu di atas ketaatan kepada-Mu dan bersatu bagi memikul beban dakwah-Mu, hati-hati ini telah mengikat persetiaan untuk menolong meninggikan syariat-Mu. Oleh itu, Ya Allah, Engkau perkukuhkan ikatannya dan Engkau kekalkan kemesraan hati-hati ini, tunjukilah hati-hati ini akan jalan yang sebenar,  serta penuhkanlah (piala) hati-hati ini dengan cahaya Rabbani-Mu yang tidak kunjung redup, lapangkanlah hati-hati dengan limpahan keimanan serta keindahan tawakkal kepada-Mu, hidup suburkanlah hati-hati ini dengan makrifat (pengenalan yang sebenarnya) tentang-Mu.  (Jika Engkau takdirkan kami mati) maka matikanlah hati-hati ini sebagai para syuhada dalam perjuangan agama-Mu. Sesungguhnya Engkau sebaik-baik pelindung dan sebaik-baik penolong.  Ya Allah perkenankanlah doa kami. Dan semoga shalawat serta salam selalu tercurah kepada Nabi Muhammad, keluarganya dan kepada semua sahabatnya."
-    }
 ]
-
-export { data, robitoh };

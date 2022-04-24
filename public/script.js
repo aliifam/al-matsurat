@@ -169,16 +169,16 @@ function resetViewBack() {
     sessionStorage.clear();
 }
 
-function adaptiveView() {
-    let nowview = sessionStorage.getItem('mode');
+// function adaptiveView() {
+//     let nowview = sessionStorage.getItem('mode');
 
-    if (nowview === 'sugro-pagi') {
-        createViewSupag();
-    }
+//     if (nowview === 'sugro-pagi') {
+//         createViewSupag();
+//     }
 
-    if (nowview === 'sugro-petang') {
-        createViewSupet();
-    }
+//     if (nowview === 'sugro-petang') {
+//         createViewSupet();
+//     }
 
-    console.log(nowview)
-}
+//     console.log(nowview)
+// }

@@ -166,7 +166,7 @@ function resetViewBack() {
     doaView.innerHTML = "";
     backbutton.className = "hidden";
 
-    sessionStorage.removeItem('mode');
+    sessionStorage.clear();
 }
 
 function adaptiveView() {

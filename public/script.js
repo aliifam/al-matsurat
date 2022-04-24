@@ -35,6 +35,9 @@ var doaClean = `<div><div>`
 
 function createViewSupag() {
 
+    let loader = `<p class="text-center">Loading...<p/>`;
+    dynamicView.innerHTML = loader;
+
     fetch('./data/sugro.json')
         .then(res => res.json())
         .then(data => {
@@ -82,6 +85,10 @@ function createViewSupag() {
 }
 
 function createViewSupet() {
+
+    let loader = `<p class="text-center">Loading...<p/>`;
+    dynamicView.innerHTML = loader;
+    
     fetch('./data/sugro.json')
         .then(res => res.json())
         .then(data => {

@@ -16,8 +16,17 @@
             src: url('./UthmaniFont.otf');
           }
     </style>
+
+    <script>
+        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('dark');
+        } else {
+          document.documentElement.classList.remove('dark');
+        }
+    </script>
+      
 </head>
-<body onload="adaptiveView()">
+<body onload="adaptiveView()" class="bg-white dark:bg-zinc-800">
     <div class="container max-w-xl mx-auto">
         <a class="hidden" onclick="resetViewBack()" title="back home" id="back-button">
             <div class="ml-4 p-4 bg-slate-700 text-white w-fit sticky top-0 ">
@@ -26,41 +35,33 @@
                 </svg>
             </div>
         </a>
-        <div class="text-center my-9">
+        <div class="text-center my-9 dark:text-white">
             <h1 class="font-bold text-2xl" id="judul_main">Al - Matsurat Online</h1>
             <p class="" id="deskripsi_main">biasakan membaca almatsurat setiap pagi dan petang</p>
+
+            <!-- darkmode toggle -->
+            <div class="flex justify-center items-center my-4">
+                <span class="mr-2 text-sm text-slate-500">light</span>
+                <input type="checkbox" class="hidden" id="dark-toggle">
+                <label for="dark-toggle">
+                  <div class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
+                    <div class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out"></div>
+                  </div>
+                </label>
+                <span class="ml-2 text-sm text-slate-500">dark</span>
+            </div>
+
         </div>
         
         <div id="content">
-            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mx-4">
-                <a onclick="createViewSupag()">
-                    <div class="flex cursor-pointer justify-center items-center h-28 border border-gray-400 hover:shadow-xl">
-                        <p class="text-2xl">Sugro Pagi</p>
-                     </div>
-                </a>
-                <a onclick="createViewSupet()">
-                    <div class="flex cursor-pointer justify-center items-center h-28 border border-gray-400 hover:shadow-xl">
-                        <p class="text-2xl">Sugro Petang</p>
-                     </div>
-                </a>
-                <a onclick="createViewKupag()">
-                    <div class="flex cursor-pointer justify-center items-center h-28 border border-gray-400 hover:shadow-xl">
-                        <p class="text-2xl">Kubro Pagi</p>
-                     </div>
-                </a>
-                <a onclick="createViewKupet()">
-                    <div class="flex cursor-pointer justify-center items-center h-28 border border-gray-400 hover:shadow-xl">
-                        <p class="text-2xl">Kubro Petang</p>
-                     </div>
-                </a>
-            </div>
+            <!-- isi dengan dom manipulation -->
         </div>
         
         <div id="doa">
             <!-- isi dengan manipulasi DOM -->
         </div>
 
-        <footer class="text-center mt-10 mx-4 my-4 p-4 border">
+        <footer class="text-center mt-10 mx-4 my-4 p-4 border dark:text-white ">
             create with ❤️ by AAM in Yogyakarta
         </footer>
         

@@ -5,3 +5,7 @@
 #dark-toggle:checked ~ label div.toggle-circle {
     @apply translate-x-3;
 }
+
+.card-home {
+    @apply flex cursor-pointer justify-center items-center h-28 border border-gray-400 hover:shadow-xl dark:shadow-zinc-900 dark:border-zinc-700;
+}

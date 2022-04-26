@@ -7,22 +7,22 @@ var doaView = document.getElementById('doa');
 
 var clean = `<div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mx-4 dark:text-white">
                 <a onclick="createViewSupag()">
-                    <div class="flex cursor-pointer justify-center items-center h-28 border border-gray-400 hover:shadow-xl">
+                    <div class="card-home">
                         <p class="text-2xl">Sugro Pagi</p>
                      </div>
                 </a>
                 <a onclick="createViewSupet()">
-                    <div class="flex cursor-pointer justify-center items-center h-28 border border-gray-400 hover:shadow-xl">
+                    <div class="card-home">
                         <p class="text-2xl">Sugro Petang</p>
                      </div>
                 </a>
                 <a onclick="createViewKupag()">
-                    <div class="flex cursor-pointer justify-center items-center h-28 border border-gray-400 hover:shadow-xl">
+                    <div class="card-home">
                         <p class="text-2xl">Kubro Pagi</p>
                      </div>
                 </a>
                 <a onclick="createViewKupet()">
-                    <div class="flex cursor-pointer justify-center items-center h-28 border border-gray-400 hover:shadow-xl">
+                    <div class="card-home">
                         <p class="text-2xl">Kubro Petang</p>
                      </div>
                 </a>

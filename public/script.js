@@ -54,7 +54,7 @@ function createViewSupag() {
                     continue;
                 }
                 itemList += `<div class="m-4 mt-8 border-b-2 border-zinc-700">
-                                <div class="flex justify-between p-4 bg-zinc-700 text-white">
+                                <div class="flex justify-between p-4 bg-zinc-700 text-white sticky top-0">
                                     <p>${item.title}</p>
                                     <p>${item.repeat} repetisi</p>
                                 </div>
@@ -72,7 +72,7 @@ function createViewSupag() {
                 const doa = data[index];
                 // console.log(doa)
                 doaList += `<div class="m-4 mt-8 border-b-2 border-green-600">
-                                <div class="flex justify-between p-4 bg-green-600 text-white">
+                                <div class="flex justify-between p-4 bg-green-600 text-white sticky top-0">
                                     <p>${doa.title}</p>
                                     <p>${doa.repeat} repetisi</p>
                                 </div>
@@ -83,7 +83,7 @@ function createViewSupag() {
             doaView.innerHTML = doaList
         });
 
-    backbutton.className = "sticky top-0 cursor-pointer";
+    backbutton.className = "cursor-pointer";
     dynamicBrowser.innerText = "Al - Matsurat Sugro Pagi";
     dynamicTitle.innerText = "Al - Matsurat Sugro Pagi";
     dynamicDescription.innerText = "Biasakan membaca Al - Matsurat sugro setiap pagi";
@@ -115,7 +115,7 @@ function createViewSupet() {
                     continue;
                 }
                 itemList += `<div class="m-4 mt-8 border-b-2 border-zinc-700">
-                                <div class="flex justify-between p-4 bg-zinc-700 text-white">
+                                <div class="flex justify-between p-4 bg-zinc-700 text-white sticky top-0">
                                     <p>${item.title}</p>
                                     <p>${item.repeat} repetisi</p>
                                 </div>
@@ -133,7 +133,7 @@ function createViewSupet() {
                 const doa = data[index];
                 // console.log(doa)
                 doaList += `<div class="m-4 mt-8 border-b-2 border-green-600">
-                                <div class="flex justify-between p-4 bg-green-600 text-white">
+                                <div class="flex justify-between p-4 bg-green-600 text-white sticky top-0">
                                     <p>${doa.title}</p>
                                     <p>${doa.repeat} repetisi</p>
                                 </div>
@@ -144,7 +144,7 @@ function createViewSupet() {
             doaView.innerHTML = doaList
         });
 
-    backbutton.className = "sticky top-0 cursor-pointer";
+    backbutton.className = "cursor-pointer";
     dynamicBrowser.innerText = "Al - Matsurat Sugro Petang";
     dynamicTitle.innerText = "Al - Matsurat Sugro Petang";
     dynamicDescription.innerText = "Biasakan membaca Al - Matsurat sugro setiap petang";

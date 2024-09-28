@@ -1,90 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="shortcut icon" href="./favicon.svg" type="image/x-icon" />
     <title id="judul_browser">Al - Matsurat Online | Kubro dan Sugro</title>
-    <meta name="description" content="website untuk membaca al-matsurat dan dzikir pagi petang sugro dan kubro.">
-    <meta name="keywords" content="Al-Matsurat, almatsurat, almatsurat web, almatsurat online">
+    <meta
+      name="description"
+      content="website untuk membaca al-matsurat dan dzikir pagi petang sugro dan kubro."
+    />
+    <meta
+      name="keywords"
+      content="Al-Matsurat, almatsurat, almatsurat web, almatsurat online"
+    />
 
-    <meta name="google-site-verification" content="upN7jUrhwfOZ1VG5OUB0fBHKpY_UlUdytzKAgIU10ks" />
+    <meta
+      http-equiv="refresh"
+      content="0;url=https://almatsurat.aliifam.com/"
+    />
 
-    <meta property="og:title" content="Al-Matsurat Online">
-    <meta property="og:site_name" content="Al-Matsurat Online">
-    <meta property="og:url" content="https://almatsurat.vercel.app/">
-    <meta property="og:description" content="website untuk membaca al-matsurat dan dzikir pagi petang sugro dan kubro.">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="/img/og.jpg">
+    <meta
+      name="google-site-verification"
+      content="upN7jUrhwfOZ1VG5OUB0fBHKpY_UlUdytzKAgIU10ks"
+    />
+
+    <meta property="og:title" content="Al-Matsurat Online" />
+    <meta property="og:site_name" content="Al-Matsurat Online" />
+    <meta property="og:url" content="https://almatsurat.vercel.app/" />
+    <meta
+      property="og:description"
+      content="website untuk membaca al-matsurat dan dzikir pagi petang sugro dan kubro."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="/img/og.jpg" />
 
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@hialiif" />
     <meta name="twitter:creator" content="@hialiif" />
     <meta property="og:url" content="https://almatsurat.vercel.app/" />
     <meta property="og:title" content="Al-Matsurat Online" />
-    <meta property="og:description" content="website untuk membaca al-matsurat dan dzikir pagi petang sugro dan kubro." />
+    <meta
+      property="og:description"
+      content="website untuk membaca al-matsurat dan dzikir pagi petang sugro dan kubro."
+    />
     <meta property="og:image" content="/img/og.jpg" />
 
     <style>
-        @font-face {
-            font-family: fontArab;
-            src: url('./UthmaniFont.otf');
-          }
+      @font-face {
+        font-family: fontArab;
+        src: url("./UthmaniFont.otf");
+      }
     </style>
 
     <script>
-        if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-          document.documentElement.classList.add('dark');
-        } else {
-          document.documentElement.classList.remove('dark');
-        }
+      if (
+        localStorage.theme === "dark" ||
+        (!("theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
+      } else {
+        document.documentElement.classList.remove("dark");
+      }
     </script>
-      
-</head>
-<body onload="adaptiveView()" class="bg-white dark:bg-zinc-800">
+  </head>
+  <body onload="adaptiveView()" class="bg-white dark:bg-zinc-800">
     <div class="container max-w-xl mx-auto">
-        <a class="hidden" onclick="resetViewBack()" title="back home" id="back-button">
-            <div class="ml-4 p-4 bg-slate-700 text-white w-fit top-0 ">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
-                </svg>
+      <a
+        class="hidden"
+        onclick="resetViewBack()"
+        title="back home"
+        id="back-button"
+      >
+        <div class="ml-4 p-4 bg-slate-700 text-white w-fit top-0">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-6 w-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+            />
+          </svg>
+        </div>
+      </a>
+      <div class="text-center my-9 dark:text-white">
+        <h1 class="font-bold text-2xl" id="judul_main">Al - Matsurat Online</h1>
+        <p class="" id="deskripsi_main">
+          biasakan membaca almatsurat setiap pagi dan petang
+        </p>
+
+        <!-- darkmode toggle -->
+        <div class="flex justify-center items-center my-4">
+          <span class="mr-2 text-sm text-slate-500">light</span>
+          <input type="checkbox" class="hidden" id="dark-toggle" />
+          <label for="dark-toggle">
+            <div
+              class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1"
+            >
+              <div
+                class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out"
+              ></div>
             </div>
-        </a>
-        <div class="text-center my-9 dark:text-white">
-            <h1 class="font-bold text-2xl" id="judul_main">Al - Matsurat Online</h1>
-            <p class="" id="deskripsi_main">biasakan membaca almatsurat setiap pagi dan petang</p>
-
-            <!-- darkmode toggle -->
-            <div class="flex justify-center items-center my-4">
-                <span class="mr-2 text-sm text-slate-500">light</span>
-                <input type="checkbox" class="hidden" id="dark-toggle">
-                <label for="dark-toggle">
-                  <div class="flex h-5 w-9 cursor-pointer items-center rounded-full bg-slate-500 p-1">
-                    <div class="toggle-circle h-4 w-4 rounded-full bg-white transition duration-300 ease-in-out"></div>
-                  </div>
-                </label>
-                <span class="ml-2 text-sm text-slate-500">dark</span>
-            </div>
-
+          </label>
+          <span class="ml-2 text-sm text-slate-500">dark</span>
         </div>
-        
-        <div id="content">
-            <!-- isi dengan dom manipulation -->
-        </div>
-        
-        <div id="doa">
-            <!-- isi dengan manipulasi DOM -->
-        </div>
+      </div>
 
-        <footer class="text-center text-sm lg:text-base mt-10 mx-4 my-4 p-4 border dark:text-white dark:border-zinc-700">
-            create with <a href="https://github.com/aliifam/almatsurat" target="_blank" title="we love open source">❤️</a> by AAM in Yogyakarta
-        </footer>
-        
-        
+      <div id="content">
+        <!-- isi dengan dom manipulation -->
+      </div>
+
+      <div id="doa">
+        <!-- isi dengan manipulasi DOM -->
+      </div>
+
+      <footer
+        class="text-center text-sm lg:text-base mt-10 mx-4 my-4 p-4 border dark:text-white dark:border-zinc-700"
+      >
+        create with
+        <a
+          href="https://github.com/aliifam/almatsurat"
+          target="_blank"
+          title="we love open source"
+          >❤️</a
+        >
+        by AAM in Yogyakarta
+      </footer>
     </div>
 
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
